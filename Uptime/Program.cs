@@ -24,13 +24,7 @@ namespace Uptime {
                 Console.WriteLine(hostname + " is up for " + sUptime);
             } else {
                 if (args[0] == "--version") {
-                    string maj_ver = "0";
-                    string min_ver = "1";
-                    string build = "007";
-                    string build_date = "2018.06.01";
-
-                    Console.WriteLine("Uptime version {0}.{1} build {2} of {3}", maj_ver, min_ver, build, build_date);
-                    Console.WriteLine("By phsouto : https://github.com/phsouto");
+                    Console.WriteLine("https://github.com/phsouto/Uptime");
                 }
             }
         }
